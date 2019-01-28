@@ -13,4 +13,11 @@ public class UnitConversionRate {
     private String from;
     private String to;
     private BigDecimal conversionRate;
+    private int port;
+
+    public UnitConversionRate(String from, String to, BigDecimal conversionRate) {
+        this.from = from;
+        this.to = to;
+        this.conversionRate = conversionRate;
+    }
 }
