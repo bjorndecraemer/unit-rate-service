@@ -1,7 +1,6 @@
 package com.bjornspetprojects.microservices.unitrateservice.controllers;
 
 import com.bjornspetprojects.microservices.unitrateservice.model.UnitConversionRate;
-import com.bjornspetprojects.microservices.unitrateservice.model.UnitToMMRate;
 import com.bjornspetprojects.microservices.unitrateservice.services.UnitRateService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
