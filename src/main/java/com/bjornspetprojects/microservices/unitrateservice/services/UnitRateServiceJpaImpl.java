@@ -24,7 +24,6 @@ public class UnitRateServiceJpaImpl implements UnitRateService {
         UnitToMMRate unitToMMRateFrom = unitToMMRateRepository.findUnitRateByUnitType(from.toUpperCase());
         UnitToMMRate unitToMMRateTo = unitToMMRateRepository.findUnitRateByUnitType(to.toUpperCase());
         int divisionPrecision = configuration.getDivisionprecision();
-        System.out.println("Div PREC = "+divisionPrecision);
         return new UnitConversionRate(
                 from,
                 to,
